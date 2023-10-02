@@ -1,0 +1,30 @@
+.login-form{
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.login-form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.login-form input[type="submit"] {
+    background-color: #fff;
+    color: #222;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #444;
+}
